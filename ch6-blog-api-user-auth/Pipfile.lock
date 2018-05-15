@@ -1,0 +1,53 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "1f3d4cc7027911c0d5599450f18f080ccf209827c665920bad7fc6e832bb3b38"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.4",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "17.5.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 17.5.0: Mon Mar  5 22:24:32 PST 2018; root:xnu-4570.51.1~1/RELEASE_X86_64",
+            "python_full_version": "3.6.4",
+            "python_version": "3.6",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "django": {
+            "hashes": [
+                "sha256:2d8b9eed8815f172a8e898678ae4289a5e9176bc08295676eff4228dd638ea61",
+                "sha256:d81a1652963c81488e709729a80b510394050e312f386037f26b54912a3a10d0"
+            ],
+            "version": "==2.0.4"
+        },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:c375e4f95a3a64fccac412e36fb42ba36881e52313ec021ef410b40f67cddca4",
+                "sha256:b6714c3e4b0f8d524f193c91ecf5f5450092c2145439ac2769711f7eba89a9d9"
+            ],
+            "version": "==3.8.2"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:65ae0c8101309c45772196b21b74c46b2e5d11b6275c45d251b150d5da334555",
+                "sha256:c06425302f2cf668f1bba7a0a03f3c1d34d4ebeef2c72003da308b3947c7f749"
+            ],
+            "version": "==2018.4"
+        }
+    },
+    "develop": {}
+}
