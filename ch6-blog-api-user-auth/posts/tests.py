@@ -9,7 +9,8 @@ class BlogTests(TestCase):
     @classmethod
     def setUpTestData(cls):
         # Create a user
-        testuser1 = User.objects.create_user(username='testuser1', password='abc123')
+        testuser1 = User.objects.create_user(
+            username='testuser1', password='abc123')
         testuser1.save()
 
         # Create a blog post

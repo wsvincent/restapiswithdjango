@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'rest_auth',
 
+
     # Local apps
     'posts',
 ]
