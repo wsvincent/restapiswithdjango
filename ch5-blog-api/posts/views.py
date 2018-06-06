@@ -1,14 +1,14 @@
 from rest_framework import generics
 
-from . import models
-from . import serializers
+from .models import Post
+from .serializers import PostSerializer
 
 
 class PostList(generics.ListAPIView):
-    queryset = models.Post.objects.all()
-    serializer_class = serializers.PostSerializer
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
 
 
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = models.Post.objects.all()
-    serializer_class = serializers.PostSerializer
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
