@@ -6,7 +6,7 @@ from .permissions import IsAuthorOrReadOnly
 from .serializers import PostSerializer, UserSerializer
 
 
-class PostList(generics.ListAPIView):
+class PostList(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
