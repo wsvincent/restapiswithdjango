@@ -1,6 +1,6 @@
 The official source code for _REST APIs with Django_.
 
-![Cover](cover.jpg)
+![Cover](cover300.jpg)
 
 Preview the book at [https://restapiswithdjango.com/](https://restapiswithdjango.com/).
 
