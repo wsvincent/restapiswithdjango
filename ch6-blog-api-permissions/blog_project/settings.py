@@ -31,18 +31,18 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # Local 
-    'posts.apps.PostsConfig',
-
-    # 3rd-party apps
-    'rest_framework',
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 3rd-party apps
+    'rest_framework',
+
+    # Local
+    'posts.apps.PostsConfig',
 ]
 
 MIDDLEWARE = [
@@ -127,6 +127,6 @@ STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated', 
+        'rest_framework.permissions.IsAuthenticated',
     ]
 }

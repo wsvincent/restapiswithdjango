@@ -31,26 +31,26 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # Local 
-    'posts.apps.PostsConfig',
-
-    # 3rd-party apps
-    'rest_framework',
-    'rest_framework.authtoken',
-    'rest_framework_swagger', # new
-    'allauth', 
-    'allauth.account', 
-    'allauth.socialaccount', 
-    'rest_auth',
-    'rest_auth.registration', 
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites', 
+    'django.contrib.sites',
+
+    # 3rd-party apps
+    'rest_framework',
+    'rest_framework.authtoken',
+    'rest_framework_swagger', # new
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'rest_auth',
+    'rest_auth.registration',
+
+    # Local
+    'posts.apps.PostsConfig',
 ]
 
 MIDDLEWARE = [
@@ -135,9 +135,9 @@ STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated', 
+        'rest_framework.permissions.IsAuthenticated',
     ],
-    'DEFAULT_AUTHENTICATION_CLASSES': [ 
+    'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ],

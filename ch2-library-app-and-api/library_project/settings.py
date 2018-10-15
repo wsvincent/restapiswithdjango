@@ -31,19 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # Local 
-    'books.apps.BooksConfig',
-    'api.apps.ApiConfig',
-
-    # 3rd party 
-    'rest_framework',
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 3rd party
+    'rest_framework',
+
+    # Local
+    'books.apps.BooksConfig',
+    'api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
