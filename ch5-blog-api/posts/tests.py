@@ -23,6 +23,6 @@ class BlogTests(TestCase):
         expected_author = f'{post.author}'
         expected_title = f'{post.title}'
         expected_body = f'{post.body}'
-        self.assertEquals(expected_author, 'testuser1')
-        self.assertEquals(expected_title, 'Blog title')
-        self.assertEquals(expected_body, 'Body content...')
+        self.assertEqual(expected_author, 'testuser1')
+        self.assertEqual(expected_title, 'Blog title')
+        self.assertEqual(expected_body, 'Body content...')
