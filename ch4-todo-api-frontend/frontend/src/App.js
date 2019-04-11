@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+import axios from 'axios'; // new
 
 class App extends Component {
   state = {
     todos: []
   };
 
+  // new
   componentDidMount() {
     this.getTodos();
   }
 
+  // new
   getTodos() {
     axios
       .get('http://127.0.0.1:8000/api/')
