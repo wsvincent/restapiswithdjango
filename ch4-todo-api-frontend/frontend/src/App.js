@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios'; // new
+import axios from 'axios'; 
 
 class App extends Component {
   state = {
