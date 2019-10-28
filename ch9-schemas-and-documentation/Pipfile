@@ -11,7 +11,7 @@ djangorestframework = "==3.10.3"
 django-allauth = "==0.40.0"
 django-rest-auth = "==0.9.5"
 coreapi = "==2.3.3"
-pyyaml = "==5.1"
+pyyaml = "==5.1.2"
 django-rest-swagger = "==2.2.0"
 
 [requires]
