@@ -1,6 +1,6 @@
 The official source code for _Django for APIs_. Previously titled _REST APIs with Django_.
 
-![Cover](cover_2_2.jpg)
+![Cover](cover30.jpg)
 
 Preview the book at [https://djangoforapis.com/](https://djangoforapis.com/).
 
