@@ -9,9 +9,9 @@ verify_ssl = true
 django = "==3.0.5"
 djangorestframework = "==3.11.0"
 django-allauth = "==0.41.0"
-django-rest-auth = "==0.9.5"
 pyyaml = "==5.3"
 drf-yasg = "==1.17.1"
+dj-rest-auth = "==1.0.4"
 
 [requires]
 python_version = "3.7"

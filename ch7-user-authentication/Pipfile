@@ -8,8 +8,8 @@ verify_ssl = true
 [packages]
 django = "==3.0.5"
 djangorestframework = "==3.11.0"
-django-rest-auth = "==0.9.5"
 django-allauth = "==0.41.0"
+dj-rest-auth = "==1.0.4"
 
 [requires]
 python_version = "3.7"

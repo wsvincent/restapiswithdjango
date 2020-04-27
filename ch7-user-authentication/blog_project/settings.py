@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'allauth', # new
     'allauth.account', # new
     'allauth.socialaccount', # new
-    'rest_auth',
-    'rest_auth.registration', # new
+    'dj_rest_auth', # new
+    'dj_rest_auth.registration', # new
 
     # Local
     'posts.apps.PostsConfig',
