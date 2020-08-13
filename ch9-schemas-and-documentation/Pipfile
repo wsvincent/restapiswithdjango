@@ -6,12 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==3.0.5"
+django = "~=3.1.0"
 djangorestframework = "==3.11.0"
-django-allauth = "==0.41.0"
-pyyaml = "==5.3"
+dj-rest-auth = "==1.1.0"
+django-allauth = "~=0.42.0"
+pyyaml = "==5.3.1"
+uritemplate = "==3.0.1"
 drf-yasg = "==1.17.1"
-dj-rest-auth = "==1.0.4"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"

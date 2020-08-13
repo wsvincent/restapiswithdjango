@@ -433,7 +433,7 @@ paths:
       responses:
         '204':
           description: ''
-  /api/v1/rest-auth/logout/:
+  /api/v1/dj-rest-auth/logout/:
     get:
       operationId: listLogouts
       description: 'Calls Django logout method and delete the Token object
@@ -466,7 +466,7 @@ paths:
             application/json:
               schema: {}
           description: ''
-  /api/v1/rest-auth/user/:
+  /api/v1/dj-rest-auth/user/:
     get:
       operationId: RetrieveUserDetails
       description: 'Reads and updates UserModel fields
@@ -643,7 +643,7 @@ paths:
                 required:
                 - username
           description: ''
-  /api/v1/rest-auth/password/reset/:
+  /api/v1/dj-rest-auth/password/reset/:
     post:
       operationId: CreatePasswordReset
       description: 'Calls Django Auth PasswordResetForm save method.
@@ -679,7 +679,7 @@ paths:
                 required:
                 - email
           description: ''
-  /api/v1/rest-auth/password/reset/confirm/:
+  /api/v1/dj-rest-auth/password/reset/confirm/:
     post:
       operationId: CreatePasswordResetConfirm
       description: "Password reset e-mail link is confirmed, therefore\nthis resets\
@@ -732,7 +732,7 @@ paths:
                 - uid
                 - token
           description: ''
-  /api/v1/rest-auth/login/:
+  /api/v1/dj-rest-auth/login/:
     post:
       operationId: CreateLogin
       description: 'Check the credentials and return the REST Token
@@ -782,7 +782,7 @@ paths:
                 required:
                 - password
           description: ''
-  /api/v1/rest-auth/password/change/:
+  /api/v1/dj-rest-auth/password/change/:
     post:
       operationId: CreatePasswordChange
       description: 'Calls Django Auth SetPasswordForm save method.
@@ -826,7 +826,7 @@ paths:
                 - new_password1
                 - new_password2
           description: ''
-  /api/v1/rest-auth/registration/:
+  /api/v1/dj-rest-auth/registration/:
     post:
       operationId: CreateRegister
       description: ''
@@ -873,7 +873,7 @@ paths:
                 required:
                 - username
           description: ''
-  /api/v1/rest-auth/registration/verify-email/:
+  /api/v1/dj-rest-auth/registration/verify-email/:
     post:
       operationId: CreateVerifyEmail
       description: ''
