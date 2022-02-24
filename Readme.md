@@ -2,4 +2,4 @@ The official source code for [Django for APIs](https://djangoforapis.com). Avail
 
 ![Cover](cover.jpg)
 
-If you have the 3.0 version, please refer to [this repo for the source code](https://github.com/wsvincent/djangoforapis_30).
+If you have the 3.1 version, please refer to [this repo for the source code](https://github.com/wsvincent/djangoforapis_31).
